@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  background: #FFF9F2;
+}
+
+p {
+  font-family: var(--font-poppins);
+}
+
+h1, h2{
+  font-family: var(--font-caslon);
+}
+
+/* Green Button */
+
+.green-button{
+  background-color: #508367;
+  padding: 10px 30px;
+  width: fit-content;
+  height: fit-content;
+  color: white;
+  border-radius: 50px;
+}
+
+.green-button:hover{
+  background-color: white;
+  color: #508367;
+  border-color: #508367;
+  border-width: 2px;
+}
