@@ -47,7 +47,7 @@ export default function Home() {
 
         <div className="flex flex-col lg:flex-row justify-center items-center gap-5 pt-10 md:pt-32 p-10 md:p-20">
           <div className="w-full lg:w-1/2" id="about">
-            <h1 className="text-[36px] md:text-[72px] font-medium text-brown leading-tight md:leading-[80px]">Welcome to Shani's Bo-Kaap Delights {"-"} Your favourite local, neighbourhood bakery.</h1>
+            <h1 className="text-[36px] md:text-[72px] font-medium text-brown leading-tight md:leading-[80px]">Welcome to {"Shani's"} Bo-Kaap Delights {"-"} Your favourite local, neighbourhood bakery.</h1>
             <div className="md:pl-24 w-full md:w-2/3">
               <p className="pt-10 font-bold">At {"Shani's"} Bo-Kaap Bakery, we believe in the tradition of home baking.</p>
               <p className="pt-10 font-light">{"–"} a timeless art that transforms simple ingredients into delightful treats. Every bite carries the warmth of our kitchen, a testament to the love and care we infuse into each creation.</p>
